@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "FoodScan",
+    "slug": "foodscan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "FoodScan utilise la caméra pour scanner vos aliments."
+        }
+      ],
+      "expo-status-bar",
+      "expo-secure-store",
+      ["expo-image-picker", { "photosPermission": "FoodScan utilise tes photos pour choisir ta photo de profil." }]
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.foodscan.app"
+    },
+    "android": {
+      "package": "com.foodscan.app"
+    }
+  }
+}
